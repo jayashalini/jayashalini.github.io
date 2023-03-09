@@ -1,0 +1,42 @@
+// About page (/about)
+
+.about {
+
+  p {
+    margin: auto;
+    text-align: justify;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+  }
+
+  h1 {
+    font-size: .8em;
+    margin-top: 3em;
+  }
+  h2 {
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+  li {
+    // font-family: "Source Sans Pro", Helvetica, sans-serif;
+    // font-size: 1em;
+    // line-height: 2em;
+    // letter-spacing: 0.1em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+  }
+
+  .ghstats {
+    summary {
+      margin-top: 1em;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

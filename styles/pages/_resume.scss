@@ -1,0 +1,340 @@
+/* Resume */
+
+#resume {
+
+	.link-to {
+		position: relative;
+		top: -4.5em;
+	}
+
+	.link-container h4 {
+		text-decoration:none;
+		border-bottom: none;
+		display: inline-flex;
+
+		a {
+				padding: 0 .5em;
+				margin: 0;
+		}
+	}
+
+	.education {
+
+		.title {
+			text-align: center;
+			// margin-bottom: 2em;
+		}
+	}
+	.experience {
+		.title {
+			text-align: center;
+		}
+		.job {
+			margin: 1em;
+			p{
+				margin: 0;
+			}
+		}
+	}
+
+	.jobs-container {
+		.points {
+			li {
+				margin: 0;
+				padding: 0;
+					font-size: .9em;
+			}
+		}
+	}
+
+	.reference-container {
+		h4 {
+			font-weight: normal;
+		}
+	
+		.name {
+			margin-bottom: .1em;
+			text-transform: none;
+			letter-spacing: 0.16em;
+			font-size: .9em;
+			text-align: right;
+		}
+	
+		.content {
+			text-transform: none;
+			padding-top: 0.9em;
+			margin-bottom: 1em;
+			font-size: 0.8em;
+			text-align: justify;
+			line-height: 1.3em;
+			font-style: italic;
+		}
+
+		.position {
+			text-align: right;
+			font-size: .6em;
+			padding-top: 0em;
+		}
+
+		.relation {
+			text-align: right;
+			font-size: .6em;
+			padding-top: 0em;
+		}
+	}
+
+	.courses {
+		padding-top: 1.6em;
+		.title {
+			text-align: center;
+		}
+		.course-list {
+			text-align: center;
+
+			h4 {
+				white-space: nowrap;
+			}
+		}
+	}
+
+	.skills {
+		margin-top: 2em;
+		.title {
+			text-align: center;
+			p {
+				font-size: 0.9em;
+			}
+		}
+	}
+	.references {
+		margin: 2em 0;
+		.title {
+			text-align: center;
+		}
+	}
+
+	.references h4 {
+		padding-top: 1px;
+		text-align: center;
+	}
+}
+
+.daterange {
+	margin-bottom: .2em;
+}
+
+.degree-container {
+	h4 {
+		font-weight: normal;
+	}
+
+	.degree {
+		margin-bottom: .1em;
+		text-transform: none;
+		letter-spacing: 0.16em;
+		font-size: .8em;
+	}
+
+	.school {
+		text-transform: none;
+		padding-top: 0.3em;
+		margin-bottom: 1em;
+	}
+}
+
+
+
+.courses .course-number {
+	display: inline;
+}
+.courses .course-name {
+	display: inline;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  margin-top: -1em;
+  text-transform: uppercase;
+}
+
+.courses ul li{
+  display: inline;
+}
+
+.course-dot {
+	display: inline;
+	// display: none;
+}
+
+@include breakpoint(small) {
+	.course-dot {
+		display: none;
+	}
+	.course-container a{
+		display: block;
+	}
+}
+.carousel-root {
+	width: 80% !important;
+	margin: auto !important;
+	margin-top: 3% !important;
+}
+  
+.carousel .slide {
+background: #fff !important;
+color: black;
+height: 100%;
+}
+
+.carousel .slide img {
+width: 7% !important;
+height: 7% !important;
+border-radius: 50%;
+}
+
+.myCarousel {
+background: #fafafa;
+margin-top: -3%;
+width: 98%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 4%;
+padding-bottom: 8%;
+padding-left: 5%;
+padding-right: 5%;
+border: 1px solid #ddd;
+height: 17.875em;
+}
+
+.carousel .control-dots {
+padding-left: 5px !important;
+outline: 0;
+bottom: 5% !important;
+}
+
+.myCarousel h3 {
+color: #222;
+font-weight: 100;
+letter-spacing: 0.0375em;
+margin-bottom: 0.0625em;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 0.9em;
+font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.myCarousel h4 {
+text-transform: uppercase;
+margin-top: 0;
+padding-top: 0;
+font-weight: 500;
+color: #484848;
+font-size: 0.5em;
+font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.myCarousel p {
+font-weight: 100 !important;
+line-height: 1.45em !important;
+color: #222;
+font-size: 0.8em;
+font-family: "Source Sans Pro", Helvetica, sans-serif;
+// max-height: 10px;
+text-align: justify;
+letter-spacing: 0.0125em;
+}
+
+// .myCarousel p:before {
+// content: "“";
+// color: #aaa;
+// font-size: 26px;
+// font-family: monospace;
+// font-weight: 100;
+// }
+
+// .myCarousel p:after {
+// content: "”";
+// color: #aaa;
+// font-size: 26px;
+// font-family: monospace;
+// font-weight: 100;
+// line-height: 0;
+// }
+
+.carousel .control-dots .dot {
+box-shadow: none !important;
+background: #454545 !important;
+outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+// background: rgb(206, 202, 202) !important;
+height: 50px !important;
+position: absolute;
+top: 40% !important;
+}
+
+.App {
+text-align: center;
+}
+  
+@media only screen and (max-width: 934px) {
+.carousel-root {
+	outline: 0;
+	width: 93% !important;
+	margin: auto !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+	display: none !important;
+}
+.myCarousel {
+	background: #fafafa;
+	margin-top: -9%;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8%;
+	padding-bottom: 12.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border: 1px solid #ddd;
+	height: 27.875em;
+}
+.myCarousel h3 {
+	color: #222;
+	font-weight: 100;
+	letter-spacing: 0.0375em;
+	margin-bottom: 0.0625em;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-family: "Raleway", Helvetica, sans-serif;
+	}
+	
+	.myCarousel h4 {
+	text-transform: uppercase;
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: 500;
+	color: #484848;
+	font-size: 0.5em;
+	font-family: "Raleway", Helvetica, sans-serif;
+	}
+	
+	.myCarousel p {
+	font-weight: 100 !important;
+	line-height: 1.45em !important;
+	color: #222;
+	font-size: 0.8em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	// max-height: 10px;
+	text-align: justify;
+	letter-spacing: 0.0125em;
+	}
+.carousel .slide img {
+	width: 24% !important;
+	border-radius: 50%;
+}
+}
