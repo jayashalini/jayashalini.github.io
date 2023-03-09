@@ -1,10 +1,10 @@
 {
-  "name": "themochalife.github.io",
+  "name": "jayashalini.github.io",
   "version": "1.0.0",
-  "homepage": "https://themochalife.github.io/",
+  "homepage": "https://jayashalini.github.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RISHIKESHAVAN/themochalife.github.io.git"
+    "url": "https://github.com/RISHIKESHAVAN/jayashalini.github.io.git"
   },
   "scripts": {
     "dev": "next dev",
