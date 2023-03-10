@@ -21,9 +21,9 @@ const Cell: React.FC<data> = (props) => (
       <a href={props.projectLink} className="image">
         <Image src={props.image} alt={props.title} height={400} width={500}/>
       </a>
-      <div className="description">
+      {/* <div className="description">
         <p>{props.desc}</p>
-      </div>
+      </div> */}
     </article>
   </div>
 );

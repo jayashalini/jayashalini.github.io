@@ -7,9 +7,13 @@
 /* Mini Post */
 .cell-container {
   position: relative;
+  width: 400px;
+  float: left;
+  padding: 0 30px;
 
   .description {
     position: absolute;
+    width: 340px;
     padding: 0;
     bottom: 0;
     border-top: solid 1px _palette(border);
@@ -45,11 +49,16 @@
   @include vendor( 'flex-direction', 'column');
   background: _palette(bg);
   border: solid 1px _palette(border);
+  border-radius: 10px;
   margin: 0 0 _size(element-margin);
 
   .image {
     overflow: hidden;
     width: 100%;
+    width: 340px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
     img {
       @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
@@ -117,4 +126,9 @@
       width: 100%;
     }
   }
+}
+
+.previews {
+  display: table;
+  clear: both;
 }
